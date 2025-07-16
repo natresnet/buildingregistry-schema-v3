@@ -8,6 +8,7 @@ https://schema.resnet.us/
 All notable changes to will be documented in this file. The versioning adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 | Version | Released | Changelog |
 |---|---|---|
+| 3.1.06 | Jul 16, 2025 | The enumerations for Indoor airPlus version 2 have been updated to include IAPv2.0 Certified and IAPv2.0 Gold. The TestmethodRefrigerantCharge field has new enumerations.|
 | 3.1.05 | Feb 05, 2025 | Added SchemaVersion and RegistryID at the top level, introduced a new revision type 'Address', and updated the pattern for RegistryID. |
 | 3.1.4 | Sept 29, 2023 | Modifications related to DOE ZERH |
 | 3.1.3 | Aug 11, 2023 | Projected Ratings added to schema |

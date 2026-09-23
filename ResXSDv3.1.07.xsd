@@ -1094,7 +1094,7 @@
 												</xs:sequence>
 												</xs:complexType>
 												</xs:element>
-												<xs:element name="HVACCommissioning">
+												<xs:element name="HVACCommissioning" minOccurs="0">
 												<xs:complexType>
 												<xs:sequence maxOccurs="1">
 												<xs:element name="System" minOccurs="1"

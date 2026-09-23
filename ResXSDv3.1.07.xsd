@@ -247,6 +247,7 @@
 												<xs:restriction base="xs:string">
 												<xs:enumeration value="2014"/>
 												<xs:enumeration value="2019"/>
+												<xs:enumeration value="2022"/>
 												</xs:restriction>
 												</xs:simpleType>
 												</xs:element>
@@ -1344,7 +1345,7 @@
 												</xs:all>
 												<xs:assert
 												test="not(AirflowTestMethod = 'Static Pressure Table') or PressureDiffOEM"
-												xerces:message="AirflowTestMethod is 'Static Pressure Table' so please enter PresessureDiffOEM."
+												xerces:message="AirflowTestMethod is 'Static Pressure Table' so please enter PressureDiffOEM."
 												> </xs:assert>
 												<xs:assert
 												test="not(TestmethodRefrigerantCharge = 'Non-Invasive' and MeteringDeviceType = 'Piston/Cap Tube') or DifferenceDTD"
@@ -1590,6 +1591,7 @@
 												<xs:restriction base="xs:string">
 												<xs:enumeration value="2014"/>
 												<xs:enumeration value="2019"/>
+												<xs:enumeration value="2022"/>
 												</xs:restriction>
 												</xs:simpleType>
 												</xs:element>
@@ -6336,8 +6338,10 @@
 				<xs:enumeration value="5B"/>
 				<xs:enumeration value="6A"/>
 				<xs:enumeration value="6B"/>
+				<xs:enumeration value="7"/>
 				<xs:enumeration value="7A"/>
 				<xs:enumeration value="7B"/>
+				<xs:enumeration value="8"/>
 				<xs:enumeration value="8A"/>
 				<xs:enumeration value="8B"/>
 			</xs:restriction>
@@ -6363,8 +6367,10 @@
 				<xs:enumeration value="5B"/>
 				<xs:enumeration value="6A"/>
 				<xs:enumeration value="6B"/>
+				<xs:enumeration value="7"/>
 				<xs:enumeration value="7A"/>
 				<xs:enumeration value="7B"/>
+				<xs:enumeration value="8"/>
 				<xs:enumeration value="8A"/>
 				<xs:enumeration value="8B"/>
 			</xs:restriction>

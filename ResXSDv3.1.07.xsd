@@ -1345,7 +1345,7 @@
 												</xs:all>
 												<xs:assert
 												test="not(AirflowTestMethod = 'Static Pressure Table') or PressureDiffOEM"
-												xerces:message="AirflowTestMethod is 'Static Pressure Table' so please enter PresessureDiffOEM."
+												xerces:message="AirflowTestMethod is 'Static Pressure Table' so please enter PressureDiffOEM."
 												> </xs:assert>
 												<xs:assert
 												test="not(TestmethodRefrigerantCharge = 'Non-Invasive' and MeteringDeviceType = 'Piston/Cap Tube') or DifferenceDTD"
